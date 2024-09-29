@@ -1,3 +1,24 @@
+// We should lerarn in JS
+// Closures and Lexical Scope
+// Prototypes and Prototypal Inheritance
+// Asynchronous JavaScript (Promises, async/await)
+// Event Loop and Concurrency Model
+// Modules and ES6 Import/Export
+// JavaScript Design Patterns
+// Functional Programming Concepts (higher-order functions, immutability, currying)
+// Web APIs (Fetch API, WebSockets, Service Workers)
+// Generators and Iterators
+// Memory Management and Garbage Collection
+// Proxies and Reflect API
+// Event Delegation
+// Decorators and Meta-Programming
+// Error Handling and Custom Errors
+// JavaScript Engines (e.g., V8) and JIT Compilation
+// Reactive Programming (RxJS)
+// JavaScript Performance Optimization
+// Web Workers and Multithreading
+// WeakMap, WeakSet, and Other Weak References
+// Security Best Practices (XSS, CSRF prevention)
 //Variables................................
 fname="Ishtiak";
 fName="Ishtiak";//case  sensative
