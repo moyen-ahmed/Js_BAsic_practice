@@ -1,0 +1,83 @@
+/* Basic reset for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: #333;
+}
+
+/* Positioning h1 at the top */
+h1 {
+    position: absolute;
+    top: 20px;
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, #1f1f1f 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+/* Container for the rest of the content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 60px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 80px; /* To avoid overlap with h1 */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Styling for h4 */
+h4 {
+    font-size: 1.5rem;
+    color: #f76b1c;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+button {
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(135deg, #8fd3f4 0%, #84fab0 100%);
+    transform: scale(1.05);
+}
+
+/* Add smooth animation */
+button:active {
+    transform: scale(0.95);
+}
